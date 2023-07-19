@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.10.5",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "purgecss": "^5.0.0",
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

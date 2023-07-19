@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f<br>
+RewriteCond %{REQUEST_FILENAME} !-d<br>
+RewriteCond %{REQUEST_URI} !^/assets/(css|js)/
+
+RewriteRule ^(.*)$ public/index.php [L]

@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "App\\DTO\\": "src/DTO",
+            "App\\View\\": "src/view",
+            "App\\Controller\\": "src/controllers",
+            "App\\Models\\": "src/models",
+            "App\\Models\\Form\\Input\\": "src/models/Form/Input",
+            "App\\Models\\Tasks\\": "src/models/Tasks",
+            "App\\Models\\Router\\": "src/models/Router",
+            "App\\Models\\Exception\\": "src/models/Exception"
+        }
+    }
+}
